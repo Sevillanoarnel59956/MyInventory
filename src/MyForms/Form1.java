@@ -26,7 +26,7 @@ public class Form1 extends javax.swing.JPanel {
       
         DisplayIcon.setLayout(new BoxLayout(DisplayIcon, BoxLayout.Y_AXIS));
 
-        System.out.println("test");
+        
         JScrollPane scrollPane = new JScrollPane(DisplayIcon);
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);  
         scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS); 
